@@ -22,7 +22,7 @@ require_once("auth.php");
                 <li><a href="home.php">Home</a></li>
                 <li><a href="bosses.php">Bosses</a>
                 <li><a href="sobre.php">Sobre</a></li>
-                <li><a href="/logout.php">Encerrar Sessão</a></li>
+                <li><a href="logout.php">Encerrar Sessão</a></li>
             </ul>
         </nav>
     </header>

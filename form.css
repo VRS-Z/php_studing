@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(39, 41, 40);
+}
+h1 {
+  color: rgb(233, 234, 255);
+  text-align: center;
+}
+
+.imagenocant {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 160px;
+}
+
+.título {
+  background-color: rgba(14, 43, 96, 0.966);
+  padding: 1%;
+}
+article {
+  background-color: rgba(14, 43, 96, 0.966);
+  padding: 1%;
+}
+footer {
+  background-color: rgba(9, 26, 58, 0.966);
+  margin: 0px;
+  padding: 5%;
+  text-align: left;
+  font-family: arial;
+  color: rgb(233, 234, 255);
+}
+main {
+  font-family: arial;
+  color: rgb(233, 234, 255);
+  background-color: rgb(3, 3, 9);
+  text-align: center;
+  padding: 10%;
+}
+nav {
+  color: rgb(245, 245, 220);
+  background-color: rgba(9, 26, 58, 0.966);
+  padding: 3%;
+  font-family: arial;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(245, 245, 220);
+}
+
+header nav ul li a:hover {
+  color: #ff6f00;
+}
+
+input[type="submit"] {
+  background-color: #ff6f00; /* Cor inicial do botão */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+input[type="submit"]:active {
+  background-color: rgb(129, 64, 18);
+  color: rgb(233, 234, 255);
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-large;
+}
